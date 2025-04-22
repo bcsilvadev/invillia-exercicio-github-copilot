@@ -16,7 +16,7 @@
   - Noções básicas de programação
 - **Duração:** Este exercício leva menos de uma hora para ser concluído.
 
-Neste exercício, você irá:
+Neste exercício, você irá:D
 
 1. Usar um Codespace pré-configurado para executar o VS Code no seu navegador.
 1. Aprender diferentes opções de interação para desenvolver com o GitHub Copilot.
