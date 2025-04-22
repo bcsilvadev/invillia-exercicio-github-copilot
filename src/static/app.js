@@ -86,6 +86,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Dark mode toggle
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  darkModeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    const isDarkMode = document.body.classList.contains("dark-mode");
+    darkModeToggle.textContent = isDarkMode ? "☀️" : "🌙";
+  });
+
   // Initialize app
   fetchActivities();
 });
